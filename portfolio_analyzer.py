@@ -106,5 +106,4 @@ def calculate_portfolio_performance(profile_type):
     portfolio = portfolio_map.get(profile_type, stable)
     return portfolio_analysis(portfolio, profile_type.capitalize())
 
-# Example Usage
-result = calculate_portfolio_performance('moderate')
+# %%
